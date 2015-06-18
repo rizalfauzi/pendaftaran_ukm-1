@@ -2,7 +2,7 @@
     require "ms-ukm.php";
      
     $db = new DB_Class;
-    $ukm = new Ukm($db);
+    $ukm = new rizal($db);
  
 if(isset($_GET['aksi']) == '') {        
         $tampil = $ukm->tampil_ukm();
