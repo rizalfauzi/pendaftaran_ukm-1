@@ -5,7 +5,7 @@
  
 if(isset($_GET['aksi']) == '') {        
         $tampil = $user->tampil_user();
-        echo "<h1>Pengelolaan User</h1>";
+        echo "<h1>kelola User</h1>";
         echo "<h3><a href='ms-view-user.php?aksi=tambah'>Tambah User</a> | <a href='ms-view-ukm.php'>Pengelolaan UKM</a> | <a href='ms-view-user.php'>Pengelolaan User</a></h3>";
         echo "<table border='1'>";
         echo "<tr>";
